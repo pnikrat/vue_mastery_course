@@ -39,7 +39,12 @@
     margin-top: 5px;
   }
 
+  .inline {
+    margin-right: 4px;
+  }
+
   .cart {
+    margin-top: 20px;
     margin-right: 25px;
     float: right;
     border: 1px solid #d8d8d8;
@@ -52,12 +57,16 @@
     background-color: #1E95EA;
     color: white;
     height: 40px;
-    width: 100px;
+    min-width: 100px;
     font-size: 14px;
   }
 
   .disabledButton {
     background-color: #d8d8d8;
+  }
+
+  .striked-out {
+    text-decoration: line-through;
   }
 
   .review-form {
