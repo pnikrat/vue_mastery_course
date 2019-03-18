@@ -92,7 +92,7 @@
     cursor: pointer;
   }
 
-  .activeTab {
+  .active-tab {
     color: #16C0B0;
     text-decoration: underline;
   }
