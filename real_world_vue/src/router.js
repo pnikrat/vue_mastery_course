@@ -14,14 +14,15 @@ export default new Router({
       component: EventList,
     },
     {
-      path: '/event',
-      name: 'event-show',
-      component: () => import('./views/EventShow.vue'),
-    },
-    {
       path: '/event/create',
       name: 'event-create',
       component: () => import('./views/EventCreate.vue'),
+    },
+    {
+      path: '/event/:id',
+      name: 'event-show',
+      component: () => import('./views/EventShow.vue'),
+      props: true,
     },
   ],
 });
